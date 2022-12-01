@@ -9,4 +9,6 @@ def add_arrays(arr1, arr2):
     will return None"""
     if len(arr1) == len(arr2):
         return [arr1[x] + arr2[x] for x in range(len(arr1))]
+    """lambda option:
+    return list(map(lambda x, y: x + y, arr1, arr2))"""
     return None
