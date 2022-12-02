@@ -2,6 +2,6 @@
 """define a function to use in the main file"""
 
 
-def np_transpose(matrix)
+def np_transpose(matrix):
     """function to transponse a matrix"""
     return matrix.transponse()
