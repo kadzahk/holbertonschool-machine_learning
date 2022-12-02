@@ -4,4 +4,4 @@
 
 def np_shape(matrix):
     """function to transponse a matrix"""
-    return matrix.tranponse()
+    return matrix.T
