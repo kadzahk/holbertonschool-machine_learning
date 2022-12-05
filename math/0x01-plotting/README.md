@@ -40,7 +40,7 @@
 <li><code>y</code> should be plotted as a solid red line</li>
 <li>The x-axis should range from 0 to 10</li>
 </ul>
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/9/664b2543b48ef4918687.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221205%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20221205T171435Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2e9475c26550256082d25af8c4ef1d833e0c6f3e1580e21cb4df66ee351195f7" alt="" loading="lazy" style="">
+<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/9/664b2543b48ef4918687.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221205%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20221205T171435Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=2e9475c26550256082d25af8c4ef1d833e0c6f3e1580e21cb4df66ee351195f7" alt="" style="">
 
 <h2 class="panel-title">
       1. Scatter
@@ -65,7 +65,7 @@ y += 180
 
 ### your code here
 </code></pre>
-<p><img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/9/1b143961d254e65afa2c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221205%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20221205T171435Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c0d7c749116cc0501d7349141c3e74dd6cf877d0688fc9082705f8d2ce1a95d8" alt="" loading="lazy" style=""></p>
+<p><img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/9/1b143961d254e65afa2c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20221205%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20221205T171435Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c0d7c749116cc0501d7349141c3e74dd6cf877d0688fc9082705f8d2ce1a95d8" alt="" style=""></p>
 
 <h2 class="panel-title">
       2. Change of scale
