@@ -5,5 +5,5 @@ import matplotlib.pyplot as plt
 y = np.arange(0, 11) ** 3
 
 plt.plot(y, c='r')
-plt.autoscale(axis='x', tight=True)
+plt.xlim((0, 10))
 plt.show()
