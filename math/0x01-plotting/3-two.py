@@ -9,7 +9,7 @@ t2 = 1600
 y1 = np.exp((r / t1) * x)
 y2 = np.exp((r / t2) * x)
 
-fig, ax = plt.subplot()
+fig, ax = plt.subplots()
 y1 = ax.plot(x, y1, 'r--', label='C-14')
 y2 = ax.plot(x, y2, 'g', label='Ra-226')
 plt.xlabel('Time (years)')
