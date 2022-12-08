@@ -11,7 +11,7 @@ def poly_derivative(poly):
     in the list
     """
     if poly and isinstance(poly, list) and all(
-        isinstance(i, (int, float)) for i in poly):
+            isinstance(i, (int, float)) for i in poly):
         deripol = [poly[x] * x for x in range(1, len(poly))]
         if not len(deripol):
             return [0]
