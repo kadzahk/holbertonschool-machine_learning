@@ -11,24 +11,21 @@ class Exponential:
         class constructor
         """
         # if data is not given
-        if data is None:
+        if data is None and isinstance(lambtha, (float, int)):
             # If lambtha is not a positive value or equals to 0
-            if lambtha < 1:
+            if lambtha <= 0:
                 raise ValueError("lambtha must be a positive value")
-            else:
-                # save lambtha as a float
-                self.lambtha = float(lambtha)
-        else:
+            # save lambtha as a float
+            self.lambtha = float(lambtha)
+        elif data is not None:
             # if data is given
             if type(data) is not list:
                 raise TypeError("data must be a list")
-            elif len(data) < 2:
+            if len(data) < 2:
                 # If data does not contain at least two data points
                 raise ValueError("data must contain multiple values")
-            else:
-                # Calculate the lambtha of data
-                lambtha = float(sum(data) / len(data))
-                self.lambtha = lambtha
+            # Calculate the lambtha of data
+            self.lambtha = float(1 / (sum(data) / len(data)))
 
     def pdf(self, x):
         """
@@ -38,11 +35,11 @@ class Exponential:
         If x is out of range, return 0
         """
         e = 2.7182818285
-        lambtha = self.lambtha
-        if x < 0:
+        if x is None or x < 0:
             return 0
-        pdf = lambtha * (e ** (-lambtha * x))
-        return pdf
+        return (self.lambtha * (
+            e ** ((-1 * self.lambtha) * x)
+        ))
 
     def cdf(self, x):
         """
@@ -54,6 +51,8 @@ class Exponential:
         If x is out of range, return 0
         """
         e = 2.7182818285
-        lambtha = self.lambtha
-        cdf = 1 - (e ** (-lambtha * x))
-        return cdf
+        if x is None or x < 0:
+            return 0
+        return (1 - (
+            e ** ((-1 * self.lambtha) * x)
+        ))
