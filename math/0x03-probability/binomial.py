@@ -4,7 +4,7 @@ exponential distribution
 """
 
 
-class Exponential:
+class Binomial:
     """define class"""
     def __init__(self, data=None, n=1, p=0.5):
         """
